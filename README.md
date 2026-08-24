@@ -166,9 +166,3 @@ pip install streamlit pandas numpy scikit-learn plotly
 - **Proper test splits:** Temporal shift and continual learning tabs use true held-out test sets, not full datasets.
 - **Variance-aware features:** STD aggregations added to encounter cost features to capture patient variability.
 - **Model-agnostic importance:** Permutation importance computed for all three models on the same test set for a fair comparison.
-
----
-
-## License
-
-This project was developed as part of BITS Pilani's BITS F464 Machine Learning course (Assignment 2). For academic use only.
